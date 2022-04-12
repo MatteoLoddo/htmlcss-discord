@@ -9,6 +9,8 @@ body,p{
 }
 
 p{
+    line-height: 1.5rem;
+    padding: 2rem 0rem;
     font-weight: 700;
     line-height: 1.5rem;
     font-size: 1.2rem;
@@ -19,8 +21,17 @@ a{
     color: #fff;
 }
 
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
 /* VARIABILI */
 :root{
+    --bg-purple:#8EA1E1;
     --bg-white: #fff;
     --bg-dark: #23272A;
 }
@@ -44,6 +55,16 @@ a{
     padding: 5px 10px;
 }
 
+.bt.bt-purple{
+    color: #fff;
+    background-color: var(--bg-purple);
+
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
 
 /* UNIQUE CLASS */
 .bt{
@@ -54,15 +75,15 @@ a{
 }
 
 .contain-x-center{
+    padding: 6rem 0rem;
     margin: auto;
-    max-width: 1200px;
+    max-width: 1300px;
     border: 1px dashed black;
 }
 
 
 /* MIRATED CLASS */
 .bg-jumbotron{
-    padding-bottom: 5rem ;
     background-size: cover;
     background-position: middle;
     background-image: url(../img/jumbo.png);
@@ -80,8 +101,6 @@ a{
 
 }
 
-
-
 .contain-nav ul{
     gap: 2rem;
 
@@ -97,16 +116,11 @@ a{
 
 .menu{
     font-weight: bold;
-    padding-top: 1rem;
+    padding-top: 2rem;
     align-items: center
 }
 
 /* intro */
-
-.content-intro p{
-    text-align: ;
-    padding: 2rem 0rem
-}
 
 .container-intro{
     align-content: center;
@@ -114,24 +128,65 @@ a{
 }
 
 .content-intro{
-    padding: 5rem 8rem;
+    padding: 2rem 8rem;
     max-width: 90%;
 }
 
+
 .content-intro h1{
     font-size: 3.5rem;
+    color: #fff;
+    text-align: center;
 }
 
-.content-intro h1,p{
+.content-intro p{
     color: #fff;
-    padding: 1rem;
     text-align: center;
 }
 
 .contain-bt{
+    gap: 2rem;
     padding-top: 1rem;
     justify-content: center;
 }
+/* inizio MAIN */
+.section{
+    justify-content: space-between;
+}
+
+.left-item img{
+    min-width: 100%;
+}
+
+.right-item{
+    padding-top:2rem;
+    max-width: 25%;
+}
+
+/* inizio last-item */
+
+.contain-last-item{
+    text-align: center;
+}
+
+.contain-last-item>div{
+    padding: 0 5rem;
+}
+
+.img-last-item img{
+    min-width: 100%
+}
+
+.contain-last-item  div h3{
+    line-height: 6rem;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+
+
+
 
 
 
