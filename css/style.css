@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body,p{
+    font-family: Helvetica, sans-serif ;
+}
+
+p{
+    font-weight: 700;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* VARIABILI */
+:root{
+    --bg-white: #fff;
+    --bg-dark: #23272A;
+}
+
+/* UTILITY CLASS */
+.d-flex{
+    display: flex;
+}
+
+.bt-dark{
+    color: #fff;
+    background-color: var(--bg-dark);
+}
+
+.bt.bt-white{
+    background-color: var(--bg-white);
+}
+
+.bt.bt-little{
+    font-size: 0.9rem;
+    padding: 5px 10px;
+}
+
+
+/* UNIQUE CLASS */
+.bt{
+    padding: 15px 30px;
+    font-size: 1.2rem ;
+    border: none;
+    border-radius: 25px;
+}
+
+.contain-x-center{
+    margin: auto;
+    max-width: 1200px;
+    border: 1px dashed black;
+}
+
+
+/* MIRATED CLASS */
+.bg-jumbotron{
+    padding-bottom: 5rem ;
+    background-size: cover;
+    background-position: middle;
+    background-image: url(../img/jumbo.png);
+}
+
+.contain-x-center.head{
+    padding: 0
+}
+
+
+.contain-nav{
+    align-items: center;
+    flex-grow:1;
+    justify-content: center;
+
+}
+
+
+
+.contain-nav ul{
+    gap: 2rem;
+
+}
+
+.contain-nav ul li a,.logo,.login{
+    display: block;
+}
+
+.contain-nav ul li{
+    list-style: none; 
+}
+
+.menu{
+    font-weight: bold;
+    padding-top: 1rem;
+    align-items: center
+}
+
+/* intro */
+
+.content-intro p{
+    text-align: ;
+    padding: 2rem 0rem
+}
+
+.container-intro{
+    align-content: center;
+    justify-content: center;
+}
+
+.content-intro{
+    padding: 5rem 8rem;
+    max-width: 90%;
+}
+
+.content-intro h1{
+    font-size: 3.5rem;
+}
+
+.content-intro h1,p{
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.contain-bt{
+    padding-top: 1rem;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
