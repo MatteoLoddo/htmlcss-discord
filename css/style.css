@@ -29,6 +29,10 @@ h3{
     font-size: 1.6rem;
 }
 
+ul li{
+    list-style: none;
+}
+
 /* VARIABILI */
 :root{
     --bg-purple:#8EA1E1;
@@ -110,10 +114,6 @@ h3{
     display: block;
 }
 
-.contain-nav ul li{
-    list-style: none; 
-}
-
 .menu{
     font-weight: bold;
     padding-top: 2rem;
@@ -183,6 +183,23 @@ h3{
     background-repeat: no-repeat;
     background-position-x: center;
 }
+
+/* FOOTER */
+
+.title-footer{
+    max-width: 400px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.cont-menu-footer{
+    gap: 5rem;
+    flex-grow: 1;
+    justify-content: center;
+}
+
 
 
 
