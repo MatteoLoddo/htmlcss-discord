@@ -35,6 +35,8 @@ ul li{
 
 /* VARIABILI */
 :root{
+    --color-Discord:#7289DA;
+    --bg-gray:#f6f6f6;
     --bg-purple:#8EA1E1;
     --bg-white: #fff;
     --bg-dark: #23272A;
@@ -67,6 +69,10 @@ ul li{
 
 .reverse{
     flex-direction: row-reverse;
+}
+
+.bg-gray{
+    background-color: var(--bg-gray);
 }
 
 
@@ -189,6 +195,13 @@ ul li{
 .title-footer{
     max-width: 400px;
 }
+.title-footer img{
+    max-width: 20px;
+}
+.left-foot{
+    padding-top: 2rem;
+}
+
 
 .column{
     flex-direction: column;
@@ -199,6 +212,25 @@ ul li{
     flex-grow: 1;
     justify-content: center;
 }
+
+.col>ul,.title-footer>h2{
+    color: var(--color-Discord);
+}
+
+.col>ul li{
+    line-height: 2rem;
+}
+
+.icon-social{
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.icon-social svg{
+    max-width: 25px;
+    max-height: 25px;
+}
+
 
 
 
